@@ -1,0 +1,6 @@
+.cardBreedGroup{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 3rem;
+}

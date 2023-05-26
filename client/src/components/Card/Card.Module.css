@@ -1,0 +1,37 @@
+.Card {
+    width: 30rem;
+    height: 45rem;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.2), 0 0 40px rgba(0, 0, 0, 0.2);
+    border-radius: 1rem;
+    font-family: "Kalam", cursive;
+    font-weight: normal;
+    font-size: 1rem;
+    color: #4a4a7d;
+    text-align: center;
+    background-color: #f7efde;
+
+}
+
+.divCard1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.divCard2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.cardImage {
+    width: 30rem;
+    height: 20rem;
+    object-fit: cover;
+
+}
+
+.linkCard{
+    text-decoration:none;
+}

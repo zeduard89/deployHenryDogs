@@ -1,0 +1,28 @@
+*{
+  font-family: "Kalam", cursive;
+  
+}
+
+.App {
+  text-align: center;
+  background-color: #FFD5B1;
+  background-size: 100% 100%;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  top:0;
+  
+}
+
+:root {
+  line-height: 1.5;
+  
+  color-scheme: light dark;
+  color: black;
+  background-color: #FFD5B1;
+
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Kalam:wght@300&display=swap");

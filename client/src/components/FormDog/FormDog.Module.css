@@ -1,0 +1,105 @@
+.containerFormDog{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-between;
+    margin: 5rem;
+    gap: 2rem;
+}
+
+.column2FormDog{
+    margin-left: 29rem;
+    padding: 2rem;
+    border: solid;
+    border-radius: 1rem;
+}
+
+.fromTitle{
+    margin: 0;
+}
+
+.divisor1{
+    height: 5rem;
+}
+
+.divLabelInput{
+    display: flex;
+    justify-content: space-between;
+}
+
+.labelFormDog{
+    margin-left: 5rem;
+    font-size: 1.5rem;
+}
+
+.inputFormDog{
+    margin-right: 3rem;
+    width: 15rem;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+::placeholder { color: rgb(250, 250, 250); }
+
+
+
+.imagenForm1{
+    margin-left: 2rem;
+    position: absolute;
+    width: 30rem;
+}
+.imagenForm2{
+    margin-left: 5%;
+    width: 35rem;
+}
+
+p{
+    height: 1rem;
+    margin: 0.3rem;
+}
+
+.temperaments{
+    margin: 0;
+    margin-bottom: 1rem;
+}
+.errorTemperamento{
+    padding-bottom: 1rem;
+}
+
+.buttonFormDog{
+    margin-top: 1rem;
+    margin-right: 3rem;
+    width: 15rem;
+    border-radius: .5rem;
+    text-align: center;
+    font-size: 1rem;
+    font-weight: bolder;  
+}
+
+
+.selectDogForm{
+    border-radius: 0.5rem;
+    font-size: 1rem;
+
+}
+
+.accesoNegado{
+    color: rgb(255, 0, 0);
+}
+
+
+
+
+@media only screen and (min-width: 1780px) and (max-width: 2110px) {
+    .imagenForm2{
+        width: 15rem;
+        height: 50%;
+    }
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1780px) {
+    .imagenForm2{
+        display:none;
+    }
+}
