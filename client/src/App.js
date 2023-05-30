@@ -4,7 +4,7 @@ import {Route , Routes, useNavigate} from 'react-router-dom';
 import {Cards,CardsTemps,Detail,Error,FormLogin,FormRegister,FormDog,NavBar,SearchBar,BreedGruop} from './components/RoutesConection/RoutesConection'
 import { connect } from 'react-redux';
 import axios from 'axios';
-axios.defaults.baseURL = 'https://deployhenrydogs-production.up.railway.app'
+axios.defaults.baseURL = 'https://deployhenrydogs-production.up.railway.app/'
 
 function App({logStatus}) {
   
