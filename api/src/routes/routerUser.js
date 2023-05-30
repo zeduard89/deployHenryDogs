@@ -36,7 +36,7 @@ routerUser.post('/register/', async(req, res) => {
         let name = userData.name;
         let email = userData.email;
         let password = userData.password;
-
+        
         if (!name) throw Error ('Un nombre es requerido')
         if(name.length < 6) throw Error ('Ingrese un nombre mayor a 5 caracteres')
         if (!email) throw Error ('Por favor ingrese un Email');

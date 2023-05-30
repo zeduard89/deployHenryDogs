@@ -44,12 +44,10 @@ const SearchBar = ({onSearch,searchByName,searchByName2,dogsById,dogsByName,allN
             <p>{dogByNameError}</p>
           <button className='btnSearchBar2'  id='buttonSearchBar' onClick={()=>searchByName(name)}>Search</button>
           
-
-
+          
+          {/*Agregado PI
           <input type="text" className='btnSearchBar2' onChange={handleOnChange2}/>
-          <button  className='btnSearchBar2' onClick={()=>searchByName2(name2)}>ACCION INPUT</button>
-
-
+          <button  className='btnSearchBar2' onClick={()=>searchByName2(name2)}>ACCION INPUT</button> */}
 
           <select className='select' name='select' defaultValue='defaultSelect' onChange={handleOnChange}>
             <option value='defaultSelect' key='defaultSelect' disabled >Seleccione uno</option>
