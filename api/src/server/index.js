@@ -19,11 +19,12 @@
 //     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 const server = require('../app');
 const { conn } = require('../db');
+require('dotenv').config();
 
 // Syncing all the models at once.
 conn.sync({ force: false }).then(() => {  //! False Finish
   console.log('DB conectada, master')
-  server.listen(3001, () => {
-    console.log('Server on port 3001'); // eslint-disable-line no-console
+  server.listen(process.env.PORT, () => {
+    console.log('Server on ' , process.env.PORT); // eslint-disable-line no-console
   });
 });
