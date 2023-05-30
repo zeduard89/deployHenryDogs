@@ -4,7 +4,7 @@ import axios from 'axios';
 
 //REGISTRAR USUARIO
 export const register = (userData)=> {
-    const endpoint = `http://localhost:3001/user/register/`;
+    const endpoint = `/user/register/`;
     return async (dispatch)=>{
         try {
             const { data } = await axios.post(endpoint, {userData});
@@ -26,7 +26,7 @@ export const register = (userData)=> {
 //LOGIN USUARIO
 export const logIn = (userData)=> {
 
-const endpoint = `http://localhost:3001/user/login/`;
+const endpoint = `/user/login/`;
 return async (dispatch)=>{
     try {
         const { data } = await axios.post(endpoint, {userData});
@@ -60,7 +60,7 @@ return (dispatch) => {
 //Dogs HOME
 export const getAllDogs = (props) => {
     const {page,order} = props
-    const endpoint = `http://localhost:3001/getDogs/?page=${page}&order=${order}`;
+    const endpoint = `/getDogs/?page=${page}&order=${order}`;
     return async (dispatch) => {
         try {
             const { data } = await axios.get(endpoint);
@@ -79,7 +79,7 @@ export const getAllDogsByTemps = ({pageTemp,dogTemps}) => {//1   {a,c}
     let temp = dogTemps.temp;
     let dogsFrom = dogTemps.dogsFrom;
 
-    const endpoint = `http://localhost:3001/filterDogs/?page=${pageTemp}&temp=${temp}&dogsFrom=${dogsFrom}`;
+    const endpoint = `/filterDogs/?page=${pageTemp}&temp=${temp}&dogsFrom=${dogsFrom}`;
     return async (dispatch) => {
         try {
             const { data } = await axios.get(endpoint);
@@ -95,7 +95,7 @@ export const getAllDogsByTemps = ({pageTemp,dogTemps}) => {//1   {a,c}
 
 //Dogs x filtrados TOCANDO breedGroup--------------
 export const getAllDogsFiltered = (breed_group) => {
-    const endpoint = `http://localhost:3001/dogs/?breed_group=${breed_group}`;
+    const endpoint = `/dogs/?breed_group=${breed_group}`;
     return async (dispatch) => {
         try {
             const { data } = await axios.get(endpoint);
@@ -181,7 +181,7 @@ export const ceroHandlerTemp = () => {
 //Funcion busca en API x ID para BOTON BUSQUEDA ALEATORIA
 export const onSearch = (id) => {
     
-    const endpoint = `http://localhost:3001/dogs/detail/${id}`;
+    const endpoint = `/dogs/detail/${id}`;
     return async (dispatch) => {
         try {
             const { data } = await axios.get(endpoint);
@@ -199,7 +199,7 @@ export const onSearch = (id) => {
 //Funcion buscar X NOMBRE  componente BOTON SEARCHBAR PARAMS
 export const searchByName = (name) => {
     console.log(name)
-    const endpoint = `http://localhost:3001/dogs/name/${name}`;
+    const endpoint = `/dogs/name/${name}`;
     return async (dispatch) => {
         try {
             const { data } = await axios.get(endpoint);
@@ -220,7 +220,7 @@ export const searchByName = (name) => {
 
 //Funcion buscar X NOMBRE  componente DETAIL
 export const searchByNameDETAIL = (name) => {
-    const endpoint = `http://localhost:3001/dogs/name/${name}`;
+    const endpoint = `/dogs/name/${name}`;
     return async (dispatch) => {
         try {
             const { data } = await axios.get(endpoint);
@@ -238,7 +238,7 @@ export const searchByNameDETAIL = (name) => {
 
 //Funcion CREAR DOG
 export const createDog = (dogInfo) => {
-    const endpoint = `http://localhost:3001/dogs/`;
+    const endpoint = `/dogs/`;
     return async(dispatch) => {
         try {
             const { data } = await axios.post(endpoint,{dogInfo});
@@ -257,7 +257,7 @@ export const createDog = (dogInfo) => {
 
 //Funcion buscar INFO TEMPS
 export const getAllDBTemps = () => {
-    const endpoint = `http://localhost:3001/getAllDBTemps`;
+    const endpoint = `/getAllDBTemps`;
     return async (dispatch) => {
         try {
             const { data } = await axios.get(endpoint);
@@ -275,7 +275,7 @@ export const getAllDBTemps = () => {
 
 //Funcion buscar INFO Imagenes
 export const getAllDBImages = () => {
-    const endpoint = `http://localhost:3001/imagenes`;
+    const endpoint = `/imagenes`;
     return async (dispatch) => {
         try {
             const { data } = await axios.get(endpoint);
@@ -293,7 +293,7 @@ export const getAllDBImages = () => {
 
 //Funcion buscar INFO nombres
 export const getAllDBNames = () => {
-    const endpoint = `http://localhost:3001/names/`;
+    const endpoint = `/names/`;
     return async (dispatch) => {
         try {
             const { data } = await axios.get(endpoint);
