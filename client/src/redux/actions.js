@@ -4,7 +4,6 @@ import axios from 'axios';
 
 //REGISTRAR USUARIO
 export const register = (userData)=> {
-    console.log(userData);
     const endpoint = `/user/register/`;
     return async (dispatch)=>{
         try {

@@ -39,7 +39,6 @@ const handleOnChange = (event) => {
 }
 
 const handleOnSubmit =  (event)=>{
-  console.log(userData)
   event.preventDefault();
   registerButton(userData);
   formRef.current.reset();
