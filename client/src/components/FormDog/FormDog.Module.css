@@ -1,155 +1,146 @@
-.containerFormDog{
+.containerFormDog {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: space-between;
     margin: 5rem;
     gap: 2rem;
-}
-
-.column2FormDog{
+  }
+  
+  .column2FormDog {
     margin-left: 29rem;
     padding: 2rem;
     border: solid;
     border-radius: 1rem;
-}
-
-.fromTitle{
+  }
+  
+  .fromTitle {
     margin: 0;
-}
-
-.divisor1{
+  }
+  
+  .divisor1 {
     height: 5rem;
-}
-
-.divLabelInput{
+  }
+  
+  .divLabelInput {
     display: flex;
     justify-content: space-between;
-}
-
-.labelFormDog{
+  }
+  
+  .labelFormDog {
     margin-left: 5rem;
     font-size: 1.5rem;
-}
-
-.inputFormDog{
+  }
+  
+  .inputFormDog {
     margin-right: 3rem;
     width: 15rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     text-align: center;
     font-size: 1rem;
     font-weight: bolder;
-}
-::placeholder { color: rgb(250, 250, 250); }
-
-
-
-.imagenForm1{
+  }
+  ::placeholder {
+    color: rgb(250, 250, 250);
+  }
+  
+  .imagenForm1 {
     margin-left: 2rem;
     position: absolute;
     width: 30rem;
-}
-.imagenForm2{
+  }
+  .imagenForm2 {
     margin-left: 5%;
     width: 35rem;
-}
-
-p{
+  }
+  
+  p {
     height: 1rem;
     margin: 0.3rem;
-}
-
-.temperaments{
+  }
+  
+  .temperaments {
     margin: 0;
     margin-bottom: 1rem;
-}
-.errorTemperamento{
+  }
+  .errorTemperamento {
     padding-bottom: 1rem;
-}
-
-.buttonFormDog{
+  }
+  
+  .buttonFormDog {
     margin-top: 1rem;
     margin-right: 3rem;
     width: 15rem;
-    border-radius: .5rem;
+    border-radius: 0.5rem;
     text-align: center;
     font-size: 1rem;
-    font-weight: bolder;  
-}
-
-
-.selectDogForm{
+    font-weight: bolder;
+  }
+  
+  .selectDogForm {
     border-radius: 0.5rem;
     font-size: 1rem;
-
-}
-
-.accesoNegado{
+  }
+  
+  .accesoNegado {
     color: rgb(255, 0, 0);
-}
-
-
-
-
-@media only screen and (min-width: 1780px) and (max-width: 2110px) {
-    .imagenForm2{
-        width: 15rem;
-        height: 50%;
+  }
+  
+  @media only screen and (min-width: 1780px) and (max-width: 2110px) {
+    .imagenForm2 {
+      width: 15rem;
+      height: 50%;
     }
-}
-
-@media only screen and (min-width: 1580px) and (max-width: 1780px) {
-    
-    .column2FormDog{
-        margin-left: 25rem;    
+  }
+  
+  @media only screen and (min-width: 1580px) and (max-width: 1780px) {
+    .column2FormDog {
+      margin-left: 25rem;
     }
     
-    .imagenForm1{
-        display:none;
+    .imagenForm1 {
+      display: none;
     }
-    .imagenForm2{
-        display:none;
-    }  
-}
-
-@media only screen and (min-width: 1000px) and (max-width: 1580px) {
-    
-    .column2FormDog{
-        margin-left: 12rem;    
+    .imagenForm2 {
+      display: none;
     }
-    
-    .imagenForm1{
-        display:none;
-    }
-    .imagenForm2{
-        display:none;
-    }  
-}
-
-@media only screen and (min-width: 0px) and (max-width: 1000px) {
-    
-    .column2FormDog{
-        margin-left: 3rem;    
+  }
+  
+  @media only screen and (min-width: 1000px) and (max-width: 1580px) {
+    .column2FormDog {
+      margin-left: 12rem;
     }
     
-    .imagenForm1{
-        display:none;
+    .imagenForm1 {
+      display: none;
     }
-    .imagenForm2{
-        display:none;
-    }  
-
-    .inputFormDog{
-        margin-right: 0;
-        width: 30%;
-        border-radius: .5rem;
-        text-align: center;
-        font-size: 1rem;
-        font-weight: bolder;
+    .imagenForm2 {
+      display: none;
     }
-    .labelFormDog{
-        font-size: 1.5rem;
-        margin: 0;
+  }
+  
+  @media only screen and (min-width: 0px) and (max-width: 1000px) {
+    .column2FormDog {
+      margin-left: 3rem;
     }
-
-}
+    
+    .imagenForm1 {
+      display: none;
+    }
+    .imagenForm2 {
+      display: none;
+    }
+  
+    .inputFormDog {
+      margin-right: 0;
+      width: 30%;
+      border-radius: 0.5rem;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: bolder;
+    }
+    .labelFormDog {
+      font-size: 1.5rem;
+      margin: 0;
+    }
+  }

@@ -1,66 +1,66 @@
-.divFormLoginRegister{
-    height: 60rem;
-    
+.divFormLoginRegister {
+  height: 60rem;
 }
 
 .cuerpoFormRegister {
-    margin:auto;
-    padding: 2rem;
-    display: grid;
-    grid-template-columns: 65% 35%;
-    width: 80%;
-    height: 60rem;
+  margin: auto;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 65% 35%;
+  width: 80%;
+  height: 60rem;
 }
 
-.imagenFormRegister2{
-    width: 80%;
-    height: 15%;
+.imagenFormRegister2 {
+  width: 80%;
+  height: 15%;
 }
 
-.imagenFormRegister{
-    width: 100%;
-    height: 45%;     
-}
-.aux{
-    background-color: antiquewhite;
-    margin-top: 6rem;
-    margin-left: 10rem;
-    border: solid 0.rem;
-    border-radius: 1rem;
+.imagenFormRegister {
+  width: 100%;
+  height: 45%;
 }
 
-.formRegister{
-    width: 90%;
-    margin-top: 1rem;
-    padding-left: 2rem;
+.aux {
+  background-color: antiquewhite;
+  margin-top: 6rem;
+  margin-left: 10rem;
+  border: solid 0.1rem;
+  border-radius: 1rem;
 }
 
-.div1y2Register{
-    height: 8rem;
+.formRegister {
+  width: 90%;
+  margin-top: 1rem;
+  padding-left: 2rem;
 }
 
-.accesoNegado{
-    height: 3rem;
-    font-size: 1.5rem;
+.div1y2Register {
+  height: 8rem;
 }
 
-.inputRegister{
-    width: 80%;
-    height: 1.5rem;
-    border-radius: .5rem;
-    text-align: center;
-    font-size: 1.5rem;
+.accesoNegado {
+  height: 3rem;
+  font-size: 1.5rem;
 }
 
-.buttonRegister{
-    width: 10rem;
-    height: 2rem;
-    margin: .5rem;
-    border-radius: .5rem;
+.inputRegister {
+  width: 80%;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
 }
 
-p{
-    display: block;
-    font-size: 1.3rem;
-    color: red;
+.buttonRegister {
+  width: 10rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+p {
+  display: block;
+  font-size: 1.3rem;
+  color: red;
 }

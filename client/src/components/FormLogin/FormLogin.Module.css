@@ -1,55 +1,53 @@
-.divFormLogin{
-    height: 60rem;
+.divFormLogin {
+  height: 60rem;
 }
 
 .cuerpoFormLogin {
-    margin:auto;
-    padding: 1rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 50%;
-    height: 60rem;
-    
-    
-    
-}
-.formLogin{
-    background-color: antiquewhite;
-    margin-top: 1rem;
-    width: 60%;
-    border: solid 0.1rem;
-    border-radius: 1rem;
+  margin: auto;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+  height: 60rem;
 }
 
-.imagenFormLogin{
-    width: 80%;
-    height: 30%;
-    border-radius: 1rem;
-    background-color: #FFD5B1;
-    
-}
-.div1y2Login{
-    height: 10rem;
+.formLogin {
+  background-color: antiquewhite;
+  margin-top: 1rem;
+  width: 60%;
+  border: solid 0.1rem;
+  border-radius: 1rem;
 }
 
-.inputLogin{
-    width: 80%;
-    height: 1.5rem;
-    border-radius: .5rem;
-    text-align: center;
-    font-size: 1.5rem;
+.imagenFormLogin {
+  width: 80%;
+  height: 30%;
+  border-radius: 1rem;
+  background-color: #ffd5b1;
 }
 
-.buttonLogin{
-    width: 10rem;
-    height: 2rem;
-    margin: .5rem;
-    border-radius: .5rem;
+.div1y2Login {
+  height: 10rem;
 }
 
-p{
-    display: block;
-    font-size: 1.3rem;
-    color: red;
+.inputLogin {
+  width: 80%;
+  height: 1.5rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.buttonLogin {
+  width: 10rem;
+  height: 2rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+p {
+  display: block;
+  font-size: 1.3rem;
+  color: red;
 }
