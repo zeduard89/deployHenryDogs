@@ -98,8 +98,58 @@ p{
     }
 }
 
-@media only screen and (min-width: 0px) and (max-width: 1780px) {
-    .imagenForm2{
+@media only screen and (min-width: 1580px) and (max-width: 1780px) {
+    
+    .column2FormDog{
+        margin-left: 25rem;    
+    }
+    
+    .imagenForm1{
         display:none;
     }
+    .imagenForm2{
+        display:none;
+    }  
+}
+
+@media only screen and (min-width: 1000px) and (max-width: 1580px) {
+    
+    .column2FormDog{
+        margin-left: 12rem;    
+    }
+    
+    .imagenForm1{
+        display:none;
+    }
+    .imagenForm2{
+        display:none;
+    }  
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1000px) {
+    
+    .column2FormDog{
+        margin-left: 3rem;    
+    }
+    
+    .imagenForm1{
+        display:none;
+    }
+    .imagenForm2{
+        display:none;
+    }  
+
+    .inputFormDog{
+        margin-right: 0;
+        width: 30%;
+        border-radius: .5rem;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: bolder;
+    }
+    .labelFormDog{
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
 }
