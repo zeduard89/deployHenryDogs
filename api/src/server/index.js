@@ -21,6 +21,7 @@ const server = require('../app');
 const { conn } = require('../db');
 require('dotenv').config();
 
+
 // Syncing all the models at once.
 conn.sync({ force: false }).then(() => {  //! False Finish
   console.log('DB conectada, master')
