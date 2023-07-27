@@ -46,7 +46,7 @@ function App({logStatus}) {
                  : <Route path='/' element={<FormRegister renderFormButton={renderFormButton}/>}/>} */}
 
       renderForm.card?(<Route path='/home' element={<Cards renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)
-                 :(<Route path='/home' element={<CardsTemps renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)}
+                 :(<Route path='/home' element={<CardsTemps renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)
 
         <Route path='/searchDogs' element={<SearchBar/>}/>
         <Route path='/detail/:name' element={<Detail/>}/>
