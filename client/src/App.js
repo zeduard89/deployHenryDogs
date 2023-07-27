@@ -3,7 +3,7 @@ import './App.css';
 import {useState} from 'react'
 import {Route , Routes, useNavigate} from 'react-router-dom';
 // import {Cards,CardsTemps,Detail,Error,FormLogin,FormRegister,FormDog,NavBar,SearchBar,BreedGruop} from './components/RoutesConection/RoutesConection'
-import {Detail,Error,FormDog,NavBar,SearchBar,BreedGruop} from './components/RoutesConection/RoutesConection'
+import {Cards,CardsTemps,Detail,Error,FormDog,NavBar,SearchBar,BreedGruop} from './components/RoutesConection/RoutesConection'
 import { connect } from 'react-redux';
 import axios from 'axios';
 axios.defaults.baseURL = 'https://henry-proyecto-individual.onrender.com/' //dale
