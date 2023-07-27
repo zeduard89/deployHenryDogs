@@ -27,7 +27,7 @@ const NavBar = () => {
       <nav className='navBarContainer'>    
           <div className='divNav1'>
               <button className='btnNav'>
-                <NavLink className='navLink' to='/home'>Home</NavLink>
+                <NavLink className='navLink' to='/'>Home</NavLink>
               </button> 
               <button className='btnNav'>
                 <NavLink className='navLink' to='/createDog'>Create a Dog</NavLink>
