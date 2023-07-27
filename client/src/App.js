@@ -40,12 +40,12 @@ function App({logStatus}) {
       <NavBar/>
 
       <Routes>
-       
+      
       {/* {renderForm.form?<Route path='/' element={<FormLogin logStatus={logStatus} renderFormButton={renderFormButton}/>}/>
-                 : <Route path='/' element={<FormRegister renderFormButton={renderFormButton}/>}/>}
+                 : <Route path='/' element={<FormRegister renderFormButton={renderFormButton}/>}/>} */}
 
-      {renderForm.card?(<Route path='/home' element={<Cards renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)
-                 :(<Route path='/home' element={<CardsTemps renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)} */}
+      renderForm.card?(<Route path='/home' element={<Cards renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)
+                 :(<Route path='/home' element={<CardsTemps renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)}
 
         <Route path='/searchDogs' element={<SearchBar/>}/>
         <Route path='/detail/:name' element={<Detail/>}/>
