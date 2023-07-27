@@ -1,7 +1,9 @@
 import './App.css';
 import React,{useEffect,useState} from 'react'
+import React,{useState} from 'react'
 import {Route , Routes, useNavigate} from 'react-router-dom';
-import {Cards,CardsTemps,Detail,Error,FormLogin,FormRegister,FormDog,NavBar,SearchBar,BreedGruop} from './components/RoutesConection/RoutesConection'
+// import {Cards,CardsTemps,Detail,Error,FormLogin,FormRegister,FormDog,NavBar,SearchBar,BreedGruop} from './components/RoutesConection/RoutesConection'
+import {Detail,Error,FormDog,NavBar,SearchBar,BreedGruop} from './components/RoutesConection/RoutesConection'
 import { connect } from 'react-redux';
 import axios from 'axios';
 axios.defaults.baseURL = 'https://henry-proyecto-individual.onrender.com/' //dale
@@ -12,10 +14,10 @@ function App({logStatus}) {
   //Condiciono la ubicacion del usuario, si esa logIn o No
   const navigate = useNavigate();
 
-  useEffect(() => {
-    logStatus? navigate('/home')
-    :navigate('/')
- }, [logStatus]);
+//   useEffect(() => {
+//     logStatus? navigate('/home')
+//     :navigate('/')
+//  }, [logStatus]);
 
  //Condiciono la renderizacion de los FORM's y las CARDS en una misma RUTA
  const [renderForm, setRenderForm] = useState({
@@ -39,11 +41,11 @@ function App({logStatus}) {
 
       <Routes>
        
-      {renderForm.form?<Route path='/' element={<FormLogin logStatus={logStatus} renderFormButton={renderFormButton}/>}/>
+      {/* {renderForm.form?<Route path='/' element={<FormLogin logStatus={logStatus} renderFormButton={renderFormButton}/>}/>
                  : <Route path='/' element={<FormRegister renderFormButton={renderFormButton}/>}/>}
 
       {renderForm.card?(<Route path='/home' element={<Cards renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)
-                 :(<Route path='/home' element={<CardsTemps renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)}
+                 :(<Route path='/home' element={<CardsTemps renderStatus={renderForm.card} renderFormButton={renderFormButton}/> }/>)} */}
 
         <Route path='/searchDogs' element={<SearchBar/>}/>
         <Route path='/detail/:name' element={<Detail/>}/>
