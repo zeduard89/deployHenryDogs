@@ -23,7 +23,7 @@ const NavBar = () => {
     <>
     {
       //Condiciono la Locacion de NAV
-      location.pathname !== `/` ?(
+      location.pathname !== `/PEDRO` ?(
       <nav className='navBarContainer'>    
           <div className='divNav1'>
               <button className='btnNav'>
